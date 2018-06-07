@@ -21,5 +21,8 @@ def take_a_number(array, name)
 end
 
 def now_serving
-  
+  if array.empty?
+    puts "there is nobody waiting to be served!"
+  else
+    
 end
