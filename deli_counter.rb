@@ -8,7 +8,7 @@ def line(array)
   else
     current_line = "The line is currently: "
     array.each_index do |x|
-      current_line << "#{(x+1)}. #{array[x]"
+      current_line << "#{(x+1)}. #{array[x]}"
     end
     return current_line
   end
