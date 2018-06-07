@@ -10,6 +10,7 @@ def line(array)
     array.each_index do |x|
       current_line << "#{(x+1)}. #{array[x]} "
     end
+    binding.pry
     return current_line
     binding.pry
   end
