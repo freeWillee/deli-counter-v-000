@@ -13,6 +13,5 @@ def line(array)
     end
     binding.pry
     puts current_line
-    binding.pry
   end
 end
