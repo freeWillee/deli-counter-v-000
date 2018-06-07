@@ -10,5 +10,6 @@ def line(array)
     array.each_index {|x|
       current_line << "#{(x+1)}. #{array[x]}"
     }
+    return current_line
   end
 end
