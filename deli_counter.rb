@@ -16,11 +16,12 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  if array.empty?
-    puts "Welcome, #{name}. You are number 1 in line."
-  else
+  #if array.empty?
+  #  array << name
+  #  puts "Welcome, #{name}. You are number 1 in line."
+  #else
     array << name
     puts "Welcome, #{name}.  You are number #{array.length} in line."
-  end
+  #end
   
 end
