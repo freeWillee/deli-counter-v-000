@@ -11,7 +11,6 @@ def line(array)
     array.each_index do |x|
       current_line << " #{(x+1)}. #{array[x]}"
     end
-    binding.pry
     puts current_line
   end
 end
