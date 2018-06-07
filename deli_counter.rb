@@ -12,7 +12,7 @@ def line(array)
       current_line << "#{(x+1)}. #{array[x]} "
     end
     binding.pry
-    return current_line
+    puts current_line
     binding.pry
   end
 end
