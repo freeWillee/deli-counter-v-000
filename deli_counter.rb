@@ -14,3 +14,7 @@ def line(array)
     puts current_line
   end
 end
+
+def take_a_number(array, name)
+  
+end
